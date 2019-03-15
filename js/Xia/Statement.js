@@ -23,11 +23,11 @@ var canvas2=document.getElementById("canvas2");
 
 //canvas1的背景图声明
 var cover1= new Image();
-	  cover1.src="../pic/KUNKKA.png";
+	  cover1.src="pic/KUNKKA.png";
 
 //canvas2的背景图声明
 var cover2= new Image();//绘制canvas2的背景图
-	  cover2.src="../pic/TIDEHUNTER.png";
+	  cover2.src="pic/TIDEHUNTER.png";
 
 //背景色声明
 var backgroundColor=ctx.createLinearGradient(canvas.width/2,0,canvas.width/2,canvas.height);
